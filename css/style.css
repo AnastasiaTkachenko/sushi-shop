@@ -1,0 +1,282 @@
+/*global */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #020303;
+    font-family: Arial, serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*section 1 */
+.header {
+    padding: 30px 0;
+}
+
+.link-item {
+    display: inline-block;
+    margin-right: 60px;
+    vertical-align: middle;
+}
+
+.link-item a {
+    color: #fdefd5;
+    text-decoration: none;
+}
+
+li {
+    border-bottom: 2px solid transparent;
+}
+
+ul li:hover:not(li:first-child) {
+    border-bottom: solid 2px #ffaf18;
+}
+
+.link-item a:hover {
+    color: #ffaf18;
+}
+
+.logo {
+    margin-right: 282px;
+}
+
+/*section 2*/
+
+.main {
+    padding: 133px 0 80px;
+
+}
+
+.content {
+    width: 580px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.content h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    text-align: left;
+}
+
+.highlighted-header {
+    color: #ffaf18;
+}
+
+.art-group {
+    display: inline-block;
+    margin-right: 100px;
+    font-size: 0;
+}
+
+.art-group-text {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.art-group-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.art-group-container {
+    margin: 77px 0 91px 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    text-align: center;
+    padding: 22px 0;
+    text-decoration: none;
+    border: 1px solid #ffaf18;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    border-radius: 30px;
+    background-color: rgb(255, 175, 24);
+    box-shadow: 0px 0px 6px 4px rgba(255, 175, 24, 0.5);
+}
+
+
+.image {
+    font-size: 0;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.image img {
+    margin-bottom: -50px;
+}
+
+/*section 3*/
+.rolls {
+    font-size: 0;
+}
+
+.roll-section {
+    padding: 120px 0;
+}
+
+.roll-section h2 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.roll-card {
+    background-color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    margin: 12px;
+    font-size: 0;
+    border: 5px solid white;
+}
+
+.roll-card:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.roll-header {
+    margin: 30px 0 15px 0;
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+}
+
+.roll-description {
+    width: 236px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    height: 48px;
+}
+
+.roll-card:first-child,
+.roll-card:last-child {
+    border: 5px solid #ffaf18;
+}
+
+
+/*section 3 about chef*/
+.about-chef {
+    padding: 120px 0 67px 0;
+}
+
+.about-sushi-chef {
+    display: inline-block;
+    width: 363px;
+    font-size: 0;
+}
+
+.about-sushi-chef h3 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.286;
+    width: 384px;
+}
+
+.sushi-description {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin: 61px 0 99px 0;
+}
+
+.read-about {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+
+
+.white-circle:hover {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+
+.chef-photo {
+    display: inline-block;
+    margin-left: 48px;
+    font-size: 0;
+    vertical-align: bottom;
+}
+
+.icon {
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 40px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.icon img {
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+}
+.icon:hover {
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.5);
+}
+
+.icon:visited {
+    background-color: #bebebe;
+}
+
+.icon:active{
+    background-color: #ffaf18;
+}
+.footer {
+    padding: 30px 0;
+    background-color: #000000;
+}
+
+.footer-rights {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgb(44, 44, 44);
+    line-height: 1.2;
+}
+
+.logo-footer {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 390px;
+}
+
